@@ -10,6 +10,14 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *dice_1;
+@property (weak, nonatomic) IBOutlet UIButton *dice_2;
+@property (weak, nonatomic) IBOutlet UIButton *dice_3;
+@property (weak, nonatomic) IBOutlet UIButton *dice_4;
+@property (weak, nonatomic) IBOutlet UIButton *dice_5;
+@property (weak, nonatomic) IBOutlet UILabel *score;
+@property (weak, nonatomic) IBOutlet UILabel *numRolled;
+
 
 @end
 

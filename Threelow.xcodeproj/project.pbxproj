@@ -7,26 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1037A61B4CA32100CE7A76 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1037A51B4CA32100CE7A76 /* CoreMotion.framework */; };
 		BD484C891B4C5B1A0070E64B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD484C881B4C5B1A0070E64B /* main.m */; };
 		BD484C8C1B4C5B1A0070E64B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD484C8B1B4C5B1A0070E64B /* AppDelegate.m */; };
 		BD484C8F1B4C5B1A0070E64B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD484C8E1B4C5B1A0070E64B /* ViewController.m */; };
-		BD484C921B4C5B1B0070E64B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD484C901B4C5B1A0070E64B /* Main.storyboard */; };
 		BD484C941B4C5B1B0070E64B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD484C931B4C5B1B0070E64B /* Images.xcassets */; };
 		BD484C971B4C5B1B0070E64B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD484C951B4C5B1B0070E64B /* LaunchScreen.xib */; };
-		BD484CA31B4C5B1B0070E64B /* ThreelowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD484CA21B4C5B1B0070E64B /* ThreelowTests.m */; };
+		BD484CB01B4C62050070E64B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD484CAE1B4C62050070E64B /* Main.storyboard */; };
+		BD484CB31B4C62610070E64B /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = BD484CB21B4C62610070E64B /* Dice.m */; };
+		BD484CB61B4C63BF0070E64B /* Threelow.m in Sources */ = {isa = PBXBuildFile; fileRef = BD484CB51B4C63BF0070E64B /* Threelow.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BD484C9D1B4C5B1B0070E64B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD484C7B1B4C5B1A0070E64B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BD484C821B4C5B1A0070E64B;
-			remoteInfo = Threelow;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		BD1037A51B4CA32100CE7A76 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		BD484C831B4C5B1A0070E64B /* Threelow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threelow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD484C871B4C5B1A0070E64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD484C881B4C5B1A0070E64B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +27,15 @@
 		BD484C8B1B4C5B1A0070E64B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BD484C8D1B4C5B1A0070E64B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BD484C8E1B4C5B1A0070E64B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BD484C911B4C5B1A0070E64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD484C931B4C5B1B0070E64B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD484C961B4C5B1B0070E64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		BD484C9C1B4C5B1B0070E64B /* ThreelowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreelowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD484CA11B4C5B1B0070E64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD484CA21B4C5B1B0070E64B /* ThreelowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreelowTests.m; sourceTree = "<group>"; };
+		BD484CAF1B4C62050070E64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD484CB11B4C62610070E64B /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		BD484CB21B4C62610070E64B /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		BD484CB41B4C63BF0070E64B /* Threelow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Threelow.h; sourceTree = "<group>"; };
+		BD484CB51B4C63BF0070E64B /* Threelow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Threelow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,13 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD484C991B4C5B1B0070E64B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BD1037A61B4CA32100CE7A76 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +53,7 @@
 		BD484C7A1B4C5B1A0070E64B = {
 			isa = PBXGroup;
 			children = (
+				BD1037A51B4CA32100CE7A76 /* CoreMotion.framework */,
 				BD484C851B4C5B1A0070E64B /* Threelow */,
 				BD484C9F1B4C5B1B0070E64B /* ThreelowTests */,
 				BD484C841B4C5B1A0070E64B /* Products */,
@@ -73,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				BD484C831B4C5B1A0070E64B /* Threelow.app */,
-				BD484C9C1B4C5B1B0070E64B /* ThreelowTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,10 +72,14 @@
 			isa = PBXGroup;
 			children = (
 				BD484C8A1B4C5B1A0070E64B /* AppDelegate.h */,
+				BD484CB11B4C62610070E64B /* Dice.h */,
+				BD484CB21B4C62610070E64B /* Dice.m */,
+				BD484CB41B4C63BF0070E64B /* Threelow.h */,
+				BD484CB51B4C63BF0070E64B /* Threelow.m */,
+				BD484CAE1B4C62050070E64B /* Main.storyboard */,
 				BD484C8B1B4C5B1A0070E64B /* AppDelegate.m */,
 				BD484C8D1B4C5B1A0070E64B /* ViewController.h */,
 				BD484C8E1B4C5B1A0070E64B /* ViewController.m */,
-				BD484C901B4C5B1A0070E64B /* Main.storyboard */,
 				BD484C931B4C5B1B0070E64B /* Images.xcassets */,
 				BD484C951B4C5B1B0070E64B /* LaunchScreen.xib */,
 				BD484C861B4C5B1A0070E64B /* Supporting Files */,
@@ -139,24 +133,6 @@
 			productReference = BD484C831B4C5B1A0070E64B /* Threelow.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BD484C9B1B4C5B1B0070E64B /* ThreelowTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD484CA91B4C5B1B0070E64B /* Build configuration list for PBXNativeTarget "ThreelowTests" */;
-			buildPhases = (
-				BD484C981B4C5B1B0070E64B /* Sources */,
-				BD484C991B4C5B1B0070E64B /* Frameworks */,
-				BD484C9A1B4C5B1B0070E64B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BD484C9E1B4C5B1B0070E64B /* PBXTargetDependency */,
-			);
-			name = ThreelowTests;
-			productName = ThreelowTests;
-			productReference = BD484C9C1B4C5B1B0070E64B /* ThreelowTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +144,6 @@
 				TargetAttributes = {
 					BD484C821B4C5B1A0070E64B = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					BD484C9B1B4C5B1B0070E64B = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = BD484C821B4C5B1A0070E64B;
 					};
 				};
 			};
@@ -189,7 +161,6 @@
 			projectRoot = "";
 			targets = (
 				BD484C821B4C5B1A0070E64B /* Threelow */,
-				BD484C9B1B4C5B1B0070E64B /* ThreelowTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +170,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD484C921B4C5B1B0070E64B /* Main.storyboard in Resources */,
 				BD484C971B4C5B1B0070E64B /* LaunchScreen.xib in Resources */,
 				BD484C941B4C5B1B0070E64B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD484C9A1B4C5B1B0070E64B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BD484CB01B4C62050070E64B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,43 +185,29 @@
 			files = (
 				BD484C8F1B4C5B1A0070E64B /* ViewController.m in Sources */,
 				BD484C8C1B4C5B1A0070E64B /* AppDelegate.m in Sources */,
+				BD484CB31B4C62610070E64B /* Dice.m in Sources */,
+				BD484CB61B4C63BF0070E64B /* Threelow.m in Sources */,
 				BD484C891B4C5B1A0070E64B /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD484C981B4C5B1B0070E64B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD484CA31B4C5B1B0070E64B /* ThreelowTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		BD484C9E1B4C5B1B0070E64B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BD484C821B4C5B1A0070E64B /* Threelow */;
-			targetProxy = BD484C9D1B4C5B1B0070E64B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		BD484C901B4C5B1A0070E64B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD484C911B4C5B1A0070E64B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BD484C951B4C5B1B0070E64B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BD484C961B4C5B1B0070E64B /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		BD484CAE1B4C62050070E64B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD484CAF1B4C62050070E64B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -365,40 +315,6 @@
 			};
 			name = Release;
 		};
-		BD484CAA1B4C5B1B0070E64B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ThreelowTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Threelow.app/Contents/MacOS/Threelow";
-			};
-			name = Debug;
-		};
-		BD484CAB1B4C5B1B0070E64B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ThreelowTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Threelow.app/Contents/MacOS/Threelow";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,14 +334,7 @@
 				BD484CA81B4C5B1B0070E64B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		BD484CA91B4C5B1B0070E64B /* Build configuration list for PBXNativeTarget "ThreelowTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD484CAA1B4C5B1B0070E64B /* Debug */,
-				BD484CAB1B4C5B1B0070E64B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
